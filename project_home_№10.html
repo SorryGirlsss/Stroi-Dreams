@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 10</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="project_homes_2_floor_style.css">
+</head>
+<body>
+	<div class="header">
+		<a href="index.html" class="home_btn">
+			<img src="images\logo.png">
+		</a>
+		<a href="projects.html" class="place">
+			<img class="place_img" src="images\projects.png">  
+			Проекты домов
+		</a>
+		<a href="contacts.html" class="contacts">
+			<img src="images\contacts.png">
+			Контакты
+		</a>
+		<a href="about_us.html" class="consultation">
+			<img class="cons_img" src="images\people.png">
+			<div>О нас</div>
+		</a>
+	</div>
+
+<div class="logo"><img src="images\pr10.jpg"></div>
+
+<div class="cont_osn">
+	<div class="cont">
+	<div class="cont2">
+		<div class="name"><h1>Проект №10</h1></div>
+		<div class="charact"> 220м<sup>2</sup>,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Газобетон,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  3 спальни,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp     2 этажа</div>
+	</div>
+	<div class="price">
+		<font color="DimGray">Цена</font>
+		<h2>от 16 700 000 ₽</h2>
+		<font color="DimGray">В ипотеку</font>
+		<h3>от 69 979 ₽/мес</h3>
+	</div>
+</div>
+	<div class="contractor">
+		<div class="contact">
+		<img class="logotip" src="images\home_ikon.png">
+		<div class="contractor2">
+			<font color="DimGray">Подрядчик</font> 
+			<h3>Inta Haus</h3>
+		</div>
+		</div>
+		<div class="number">
+		
+      <input id="contenttabs--toogle" type="checkbox" />
+      <div class="contenttabs">
+      </div>
+      <label for="contenttabs--toogle" class="tabsbut">
+        Показать телефон
+      </label>
+      <label for="contenttabs--toogle" class="tabsbut">
+        +7-903-785-05-76
+      </label>
+    </div>
+    <div class="number_fon"></div>
+</div>
+</div>
+
+<div class="plan">
+	<div class="layout">
+		<h1>Планировка</h1>
+	</div>
+	<div class="floors">
+	<div class="floor_1">
+		<img src="images\pr10-f1.jpg">
+	</div>
+	<div class="floor_2">
+		<img src="images\pr10-f2.jpg">
+	</div>
+	</div>
+</div>
+
+<div class="specifications">
+	<h1>Характеристики</h1>
+		<nav class="price1"><div class="one">Цена за проект</div><div class="two">55 000 ₽</div></nav>
+		<nav class="price2"><div class="three">Цена строительства от </div><div class="four">16 700 000 ₽</div></nav>
+		<nav class="sroki"><div class="one">Сроки строительства</div><div class="two">от 6 месяцев</div></nav>
+		<nav class="etazh"><div class="three">Этажей</div><div class="four">2</div></nav>
+		<nav class="rooms"><div class="one">Комнат</div><div class="two">4</div></nav>
+		<nav class="bathroom"><div class="three">Санузлов</div><div class="four">3</div></nav>
+		<nav class="krovlja"><div class="one">Кровля</div><div class="two">ЦП черепица</div></nav>
+		<nav class="razmeri"><div class="three">Размеры</div><div class="four">9,6м х 14м</div></nav>
+		<nav class="fundament"><div class="one">Тип фундамента</div><div class="two">монолитный</div></nav>
+		<nav class="pristroyki"><div class="three">Пристройки</div><div class="four">терраса</div></nav>
+		<nav class="materials"><div class="one">Материал стен</div><div class="two">махверк, штукатурка</div></nav>
+		<nav class="plishad"><div class="three">Общая площадь</div><div class="four">220м<sup>2</sup></div></nav>
+		<nav class="materials"><div class="one">Строительная площадь</div><div class="two">231м<sup>2</sup>	</div></nav>
+</div>
+
+
+
+
+
+
+<div class="calculator">
+    <h1>Ипотечный калькулятор</h1>
+    <div class="input-group">
+        <label for="property-price">Стоимость недвижимости:</label>
+        <input type="text"  id="property-price" placeholder="Введите сумму" maxlength="12" onkeypress="return event.charCode >= 48 && event.charCode <= 57"/>
+    </div>
+    <div class="input-group">
+        <label for="down-payment">Первоначальный взнос:</label>
+        <input type="text" id="down-payment" placeholder="Введите сумму" maxlength="12" onkeypress="return event.charCode >= 48 && event.charCode <= 57"/>
+    </div>
+    <div class="output">
+        <p>Сумма кредита: <span id="loan-amount"></span></p>
+    </div>
+    <div class="input-group">
+        <label for="loan-term">Срок кредита:</label>
+        <input type="text" id="loan-term" placeholder="Введите количество" maxlength="3" onkeypress="return event.charCode >= 48 && event.charCode <= 57"/>
+        <select id="loan-term-unit">
+            <option value="years">Лет</option>
+            <option value="months">Месяцев</option>
+        </select>
+    </div>
+    <div class="input-group">
+        <label for="interest-rate">Процентная ставка:</label>
+        <input type="text" id="interest-rate" placeholder="Введите процент" maxlength="3" onkeypress="return event.charCode >= 48 && event.charCode <= 57"/>
+    </div>
+    <div class="output">
+        <p>Ежемесячный платеж: <span id="monthly-payment"></span></p>
+        <p>Начисленные проценты: <span id="total-interest"></span></p>
+        <p>Долг + проценты: <span id="total-debt"></span></p>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="ipoteka_calc.js"></script>
+
+
+
+
+
+
+
+<div class="footer">
+	<div class="futer_logo"> 
+		<hr class="cherta"><div class="futer_logotip"><img src="images\logo.png"></div><hr class="cherta">
+	</div>
+	<div class="footer2">
+			<div class="data">2015 – 2024 © Все права защищены 
+			<p>ЛЮБАЯ ИНФОРМАЦИЯ, ПРЕДСТАВЛЕННАЯ НА ДАННОМ САЙТЕ, НОСИТ ИСКЛЮЧИТЕЛЬНО ИНФОРМАЦИОННЫЙ ХАРАКТЕР И НИ ПРИ КАКИХ УСЛОВИЯХ НЕ ЯВЛЯЕТСЯ ПУБЛИЧНОЙ ОФЕРТОЙ, ОПРЕДЕЛЯЕМОЙ ПОЛОЖЕНИЯМИ СТАТЬИ 437 ГК РФ.</p></div>
+			<div class="our_place">Нижнекамск, пр-т Химиков 29
+			</div>
+			<div class="our_contacts">
+				<div class="phone_number2">8 (855) 509-08-03</div>
+				<a href="https://web.telegram.org/a/" class="tg"><img src="images\tg.png"></a><br>
+				<a href="https://ok.ru/" class="ok"><img src="images\ok.png"></a><br>
+				<a href="https://vk.com/feed" class="vk"><img src="images\wk.png"></a>
+				
+			</div>
+	</div>
+</div>
+</body>
+<style type="text/css">
+	.logo {
+		height: 600px;
+	}
+	.floor_1 img {
+		width: 780px;
+		height: 440px;
+		margin-left:-25%;
+		margin-top: -5%;		
+	}
+	.floor_2 img {
+		width: 780px;
+		height: 440px;
+		margin-left:-35%;
+		margin-top: -10%;	
+	}
+	@media (max-width: 380px) {
+		.logo {
+			height: 220px;
+		}
+		.plan {
+			height: 800px;
+		}
+		.floor_1 img {
+			width: 510px;
+			height: 340px;
+			margin-left:-30%		
+		}
+		.floor_2 img {
+			width: 510px;
+			height: 340px;
+			margin-left:-30%	
+		}
+	}
+</style>
+
+</html>

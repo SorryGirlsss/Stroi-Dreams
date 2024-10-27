@@ -1,0 +1,767 @@
+body {
+	background-color: MintCream;
+	font-family: Calibri;
+
+
+}
+* {
+	text-decoration: none;
+}
+
+.header {
+	margin-top: -10px;
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	box-shadow: 0 5px 60px 1px Gainsboro;
+	border-radius: 10px;
+	display: inline-flex;
+	font-size: 17px;
+}
+
+.header img {
+	width: 15px;
+	height: 15px;
+	margin-top: 5px;
+	opacity: 0.4;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.home_btn {
+	width: 210px;
+	height: 65px;
+	left: 60px;
+  position: absolute;
+  margin:0px 0 0 30px;
+
+}
+.home_btn img {
+	height: 100%;
+	width: 100%;
+	opacity: 0.6;
+}
+.place {
+	margin-left: 1200px;
+	width: 140px;
+	height: 35px;
+	text-align: center;
+	padding-top: 5px;
+	color: DimGray;
+	transition: 0.5s;
+}
+.consultation {
+	width: 140px;
+	height: 35px;
+	text-align: center;
+	padding-top: 0px;
+	color: DimGray;
+	margin-left: 30px;
+	transition: 0.5s;
+	display: flex;
+}
+.consultation div {
+	margin: 8px 0 0 10px;
+}
+.consultation img {
+	width: 18px;
+	height: 18px;
+	margin: 10px 0 0 0 ;
+}
+.place:hover {
+	opacity: 0.8;
+	background-color: white;
+	transform: scale(1.03);
+}
+.consultation:hover {
+	opacity: 0.8;
+	background-color: white;
+	transform: scale(1.03);
+}
+
+
+
+
+
+
+.cont {
+	width: 1000px;
+	height: 350px;
+	margin-top: 20px;
+	margin-left: 370px;
+	border-radius: 10px;
+  	box-shadow: 0 5px 60px 1px Gainsboro;
+  	padding: 5px 50px;
+  	font-size: 20px;
+  	background-color: white;
+}
+.cennosti {
+	width: 1100px;
+	height: 550px;
+	border-radius: 20px;
+	box-shadow: 0 5px 60px 1px Gainsboro;
+	background-color: #1e8988;
+	color: white;
+	margin:20px 0 0 370px;
+}
+.our_cennosti {
+	display: flex;
+}
+.our_cennosti h1 {
+	font-size: 40px;
+	margin: 70px 0 0 50px;
+}
+.cennosti img {
+	width: 120px;
+	height: 120px;
+	margin: 30px 0 0 50px;
+}
+.one,.two {
+	display: flex;
+}
+.ikon {
+    filter: brightness(0) invert(1);
+}
+.sotrudniki,.klienti,.produkt,.doverie {
+	display: flex;
+	margin: 20px 0 0 50px;
+}
+.sotrudniki img {
+	height: 100px;
+	width: 100px;
+	margin: 40px 0 0 40px;
+}
+.klienti img {
+	height: 120px;
+	width: 120px;
+	margin: 30px 0 0 40px;
+}
+.produkt img {
+	height: 100px;
+	width: 100px;
+	margin: 50px 0 0 70px;
+}
+
+
+
+
+
+.doverie img {
+	height: 110px;
+	width: 110px;
+	margin: 30px 0 0 55px;
+}
+.employee {
+	width: 1100px;
+	height: 1250px;
+	border-radius: 20px;
+	box-shadow: 0 5px 60px 1px Gainsboro;
+	background-color: white;
+	color: white;
+	margin:20px 0 0 370px;
+}
+.employee h1 {
+	color: black;
+	padding: 50px 0 0 65px;
+	font-size: 40px;
+}
+.first_line {
+	display: flex;
+	margin-top: 50px;
+}
+.first,.second,.third {
+	width: 310px;
+	height: 500px;
+	margin-left: 23px;
+	border-radius: 20px;
+}
+.first_line img {
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+.first_line {
+	margin-left: 40px;
+}
+.first h1 {
+	position: relative;
+	top: -180px;
+	left: -20px;
+	color: white;
+	font-size: 30px;
+	transition: 0.3s;
+} 	
+.first:hover {
+	.first_name {
+		top: -210px;
+	}
+	.cherta {
+		top: -220px;
+	}
+	.info {
+		display: flex;
+		top: -210px;
+	}
+}
+.second {
+	overflow: hidden;
+}
+.second img {
+	width: 110%;
+}
+.second h1 {
+	position: relative;
+	top: -180px;
+	left: -20px;
+	color: white;
+	font-size: 30px;
+	transition: 0.3s;
+} 
+.second:hover {
+	.first_name {
+		top: -210px;
+	}
+	.cherta {
+		top: -220px;
+	}
+	.info {
+		display: flex;
+		top: -210px;
+	}
+}
+.third {
+	overflow: hidden;
+}
+.third img {
+	width: 105%;
+}
+.third h1 {
+	position: relative;
+	top: -180px;
+	left: -20px;
+	color: white;
+	font-size: 30px;
+	transition: 0.3s;
+}
+.third:hover {
+	.first_name {
+		top: -210px;
+	}
+	.cherta {
+		top: -220px;
+	}
+	.info {
+		display: flex;
+		top: -210px;
+	}
+}
+
+
+
+
+
+.second_line {
+	display: flex;
+	margin-top: 50px;
+}
+.fourth,.fifth,.sixth {
+	width: 310px;
+	height: 500px;
+	margin-left: 23px;
+	border-radius: 20px;
+}
+.second_line img {
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+.second_line {
+	margin-left: 40px;
+}
+.fourth h1 {
+	position: relative;
+	top: -180px;
+	left: -20px;
+	color: white;
+	font-size: 30px;
+	transition: 0.3s;
+}
+.fourth:hover {
+	.first_name {
+		top: -210px;
+	}
+	.cherta {
+		top: -220px;
+	}
+	.info {
+		display: flex;
+		top: -210px;
+	}
+}
+.fifth {
+	overflow: hidden;
+}
+.fifth img {
+	width: 100%;
+}
+.fifth h1 {
+	position: relative;
+	top: -180px;
+	left: -20px;
+	color: white;
+	font-size: 30px;
+	transition: 0.3s;
+}
+.fifth:hover {
+	.first_name {
+		top: -210px;
+	}
+	.cherta {
+		top: -220px;
+	}
+	.info {
+		display: flex;
+		top: -210px;
+	}
+}
+.sixth {
+	overflow: hidden;
+}
+.sixth img {
+	width: 105%;
+}
+.sixth h1 {
+	position: relative;
+	top: -180px;
+	left: -20px;
+	color: white;
+	font-size: 30px;
+	transition: 0.3s;
+} 
+.cherta {
+	width: 265px;
+	height: 3px;
+	background-color: #1e8988;
+	position: relative;
+	top:-190px;
+	left: 25px;
+	transition: 0.3s;
+}
+.info {
+	position: relative;	
+	top: -135px;
+	left: 40px;
+	color: white;
+	font-size: 20px;
+	transition: 0.3s;
+}
+.sixth:hover {
+	.first_name {
+		top: -210px;
+	}
+	.cherta {
+		top: -220px;
+	}
+	.info {
+		display: flex;
+		top: -210px;
+	}
+}
+
+
+
+
+
+
+.footer {
+  margin: auto;
+  margin-top: 10%;
+	height: 200px;
+}
+.futer_logo {
+  display: flex;
+}
+.futer_logo img {
+  width: 160px;
+  height: 50px;
+  opacity: 0.8;
+}
+.cherta2 {
+  width: 38%;
+  height: 1px;
+  background-color: #696969;
+  margin-top: 20px;
+}
+.footer2 {
+  display: flex;
+}
+.data {
+  margin: 8% 0 0 5%;
+  width: 500px;
+  color: #696969;
+}
+.data p {
+  font-size: 11px;
+}
+.our_place {
+  margin: 3% 0 0 13%;
+  color: #696969;
+  width: 250px;
+}
+.our_contacts {
+  margin: 3% 0 0 25%;
+  text-align: right;
+}
+.phone_number2 {
+  text-align: right;
+  color: green;
+  font-size: 30px;
+  line-height: 50px;
+}
+.our_contacts img {
+  width: 20%;
+  height: 22%;
+}
+.our_contacts:hover a {
+	background-color: white;
+}
+
+
+
+
+
+@media (max-width: 380px) {
+	.place {
+  display: none;
+ }
+ .consultation{
+  display: none;
+ }
+ .header {
+  height: 30px;
+ }
+ .home_btn {
+  width: 100px;
+  height: 33px;
+  
+  position: absolute;
+  left: 5px;
+  top: 5px;
+ }
+
+
+
+
+
+.cont {
+	width: 90%;
+	height: 230px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 10px;
+  box-shadow: 0 5px 60px 1px Gainsboro;
+  padding: 2px 5%;
+  font-size: 10px;
+  background-color: white;
+  text-align: justify;
+}
+.cennosti {
+	width: 90%;
+	height: 550px;
+	border-radius: 20px;
+	box-shadow: 0 5px 60px 1px Gainsboro;
+	background-color: #1e8988;
+	color: white;
+	margin: auto;
+	margin-top: 20px;
+}
+.our_cennosti {
+	display: block;
+}
+.our_cennosti h1 {
+	font-size: 15px;
+	margin: 70px 0 0 50px;
+}
+.cennosti img {
+	width: 20%;
+	height: 20%;
+	margin: 30px 0 0 5%;
+}
+.one,.two {
+	display: flex;
+}
+.ikon {
+    filter: brightness(0) invert(1);
+}
+.sotrudniki,.klienti,.produkt,.doverie {
+	display: flex;
+	margin: 20px 0 0 50px;
+}
+.sotrudniki img {
+	height: 100px;
+	width: 100px;
+	margin: 40px 0 0 40px;
+}
+.klienti img {
+	height: 120px;
+	width: 120px;
+	margin: 30px 0 0 40px;
+}
+.produkt img {
+	height: 100px;
+	width: 100px;
+	margin: 50px 0 0 70px;
+}
+.doverie img {
+	height: 110px;
+	width: 110px;
+	margin: 30px 0 0 55px;
+}
+
+
+
+
+
+.cont {
+  width: 90%;
+  height: 230px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 60px 1px Gainsboro;
+  padding: 2px 5%;
+  font-size: 10px;
+  background-color: white;
+  text-align: justify;
+}
+.cennosti {
+  width: 90%;
+  height: 560px;
+  border-radius: 20px;
+  box-shadow: 0 5px 60px 1px Gainsboro;
+  background-color: #1e8988;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+}
+.our_cennosti {
+  display: flex;
+}
+.our_cennosti h1 {
+  font-size: 18px;
+  margin: 40px 0 0 20px;
+}
+.cennosti img {
+  width: 15%;
+  height: 15%;
+  margin: 30px 0 0 10%;
+}
+.one,.two {
+  display: block;
+}
+.ikon {
+    filter: brightness(0) invert(1);
+}
+.sotrudniki,.klienti,.produkt,.doverie {
+  display: flex;
+  margin: 20px 0 0 10%;
+  font-size: 10px;
+}
+.sotrudniki img {
+  height: 30px;
+  width: 30px;
+  margin: 10px 0 0 -20%;
+}
+.klienti img {
+  height: 40px;
+  width: 40px;
+  margin: 5px 0 0 -21%;
+}
+.produkt img {
+  height: 30px;
+  width: 30px;
+  margin: 10px 0 0 -13%;
+}
+.doverie img {
+  height: 35px;
+  width: 35px;
+  margin: 10px 0 0 -18%;
+}
+
+
+
+
+
+.employee {
+  width: 90%;
+  height: 1050px;
+  border-radius: 20px;
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+}
+.employee h1 {
+  color: black;
+  padding: 20px 0 0 10%;
+  font-size: 18px;
+}
+.employee .first_name{
+	width: 0;
+}
+.first_line {
+  display: block;
+  margin-top: 20px;
+}
+.first,.second,.third {
+  width: 100%;
+  height: 150px;
+  margin-left: -5%;
+}
+.first_line img {
+  width: 38%;
+  height: 100%;
+  border-radius: 10px;
+}
+.first h1 {
+  position: relative;
+  left: 40%;
+  color: black;
+  font-size: 15px;
+}   
+
+.second {
+  margin-top: 5%;
+}
+.second img {
+  width: 38%;
+  border-radius: 10px;
+}
+.second h1 {
+  position: relative;
+  left: 40%;
+  color: black;
+  font-size: 15px;
+} 
+
+.third {
+  margin-top: 5%;
+}
+.third img {
+  width: 38%;
+}
+.third h1 {
+  position: relative;
+  left: 40%;
+  color: black;
+  font-size: 15px;
+}
+
+
+
+
+
+
+.second_line {
+  display: block;
+  margin-top: 5%;
+}
+.fourth,.fifth,.sixth {
+ width: 100%;
+  height: 150px;
+  margin-left: -5%;
+}
+.second_line img {
+  width: 38%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.fourth h1 {
+  position: relative;
+  left: 40%;
+  color: black;
+  font-size: 15px;
+}
+
+.fifth {
+  margin-top: 5%;
+}
+.fifth img {
+  width: 40%;
+}
+.fifth h1 {
+ position: relative;
+  left: 40%;
+  color: black;
+  font-size: 15px;
+}
+
+
+.sixth {
+  margin-top: 5%;
+}
+.sixth img {
+  width: 40%;
+}
+.sixth h1 {
+ position: relative;
+  left: 40%;
+  color: black;
+  font-size: 15px;
+} 
+.cherta {
+  display: none;
+}
+.info {
+  margin: -10px 0 0 35%;
+    width: 50%;
+    color: black;
+    font-size: 15px;
+}
+
+
+
+
+
+
+ .phone_number2 {
+  font-size: 10px;
+  line-height: 18px;
+ }
+ .our_contacts img {
+  width: 25px; 
+  height: 25px;
+ }
+ .futer_logo img {
+  width: 70px;
+  height: auto;
+
+ }
+.futer_logotip {
+    margin: auto;
+}
+ .cherta2 {
+  display: none; 
+ }
+ .data {
+  margin: 70px 0 0 0;
+  font-size: 8px;
+ }
+ .data p {
+  font-size: 7px;
+ }
+ .our_place {
+  font-size: 8px;
+  margin: 10px 0 0 -20px;
+ }
+.phone_number2 {
+  margin: 20px 0 0 -60px;
+}
+ .our_contacts {
+  font-size: 8px;
+  margin: ;
+ }
+ .our_contacts img {
+  margin-top: 5px;
+ }
+
+}
